@@ -150,4 +150,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('NavigatorIOSExample1', () => NavigatorIOSExample1);
+AppRegistry.registerComponent('222', () => NavigatorIOSExample1);

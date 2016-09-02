@@ -9,7 +9,7 @@ import React, {
   StyleSheet,
   Text,
   View,
-  NavigatorIOS
+  NavigatorIOS,
 } from 'react-native';
 
 class NavigatorIOSExample2 extends Component {
@@ -44,8 +44,7 @@ class NavigatorIOSExample2 extends Component {
             }
           }}
           itemWrapperStyle={styles.itemWrapper}
-          tintColor='#008888'
-      />
+          tintColor='#008888'/>
     );
   }
 
@@ -150,4 +149,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('NavigatorIOSExample2', () => NavigatorIOSExample2);
+AppRegistry.registerComponent('personal', () => NavigatorIOSExample2);
